@@ -20,7 +20,30 @@ img {
   right: 0;
   height: 52px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   background: #eee;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+
+}
+.title {
+align-self: center;
+margin: auto;
+margin-bottom: 32px;
+}
+.element {
+  flex: 1, 1;
+  margin: 0px 52px;
+  width: 200px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.text {
+
 }
