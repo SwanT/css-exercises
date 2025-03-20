@@ -30,7 +30,6 @@ img {
 
 }
 .title {
-align-self: center;
 margin: auto;
 margin-bottom: 32px;
 }
@@ -43,7 +42,4 @@ margin-bottom: 32px;
   display: flex;
   justify-content: center;
   text-align: center;
-}
-.text {
-
 }
